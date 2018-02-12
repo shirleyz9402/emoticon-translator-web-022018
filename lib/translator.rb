@@ -13,8 +13,9 @@ def load_library(emoticons)
   hash
 end
 
-def get_japanese_emoticon(emoticons, emoticon)
-  emoticons = load_library(emoticons)
+def get_japanese_emoticon(emoticons_file, emoticon)
+  emoticons = load_library(emoticons_file)
+  
 end
 
 def get_english_meaning
